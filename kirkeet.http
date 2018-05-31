@@ -1,0 +1,153 @@
+###
+GET  http://localhost:7071/api/references/player
+
+
+###
+GET https://kirkitapi.azurewebsites.net/api/references/BallType?code=Dye9kpJckiwh0/fgKtG8wxGNgUAjza9JMEduq0TduuO1fwGkqiKWzQ==
+//x-functions-key : NCljoJjVBrNFj4OYMhgyxFyE7gzoBo0/ZfLfmDFMF7LET9ymJnTdUA==
+
+
+###
+POST http://localhost:7071/api/collection/Player
+
+[
+  {
+    "FirstName" : "Palyer1",
+    "LastName" : "Team2",
+    "CoolName" : "RS",
+    "Email" : "mrahulshakya@gmail.com",
+    "PhoneNumber" : 7350667642,
+    "Age" : 26
+  },
+   {
+    "FirstName" : "Palyer2",
+    "LastName" : "Team2",
+    "CoolName" : "RS",
+    "Email" : "mrahulshakya@gmail.com",
+    "PhoneNumber" : 7350667642,
+    "Age" : 26
+  },
+   {
+    "FirstName" : "Palyer3",
+    "LastName" : "Team2",
+    "CoolName" : "RS",
+    "Email" : "mrahulshakya@gmail.com",
+    "PhoneNumber" : 7350667642,
+    "Age" : 26
+  },
+   {
+    "FirstName" : "Palyer4",
+    "LastName" : "Team2",
+    "CoolName" : "RS",
+    "Email" : "mrahulshakya@gmail.com",
+    "PhoneNumber" : 7350667642,
+    "Age" : 26
+  },
+   {
+    "FirstName" : "Palyer5",
+    "LastName" : "Team2",
+    "CoolName" : "RS",
+    "Email" : "mrahulshakya@gmail.com",
+    "PhoneNumber" : 7350667642,
+    "Age" : 26
+  },
+   {
+    "FirstName" : "Palyer6",
+    "LastName" : "Team2",
+    "CoolName" : "RS",
+    "Email" : "mrahulshakya@gmail.com",
+    "PhoneNumber" : 7350667642,
+    "Age" : 26
+  },
+   {
+    "FirstName" : "Palyer7",
+    "LastName" : "Team2",
+    "CoolName" : "RS",
+    "Email" : "mrahulshakya@gmail.com",
+    "PhoneNumber" : 7350667642,
+    "Age" : 26
+  },
+   {
+    "FirstName" : "Palyer8",
+    "LastName" : "Team2",
+    "CoolName" : "RS",
+    "Email" : "mrahulshakya@gmail.com",
+    "PhoneNumber" : 7350667642,
+    "Age" : 26
+  },
+   {
+    "FirstName" : "Palyer9",
+    "LastName" : "Team2",
+    "CoolName" : "RS",
+    "Email" : "mrahulshakya@gmail.com",
+    "PhoneNumber" : 7350667642,
+    "Age" : 26
+  },
+   {
+    "FirstName" : "Palyer10",
+    "LastName" : "Team2",
+    "CoolName" : "RS",
+    "Email" : "mrahulshakya@gmail.com",
+    "PhoneNumber" : 7350667642,
+    "Age" : 26
+  },
+   {
+    "FirstName" : "Palyer11",
+    "LastName" : "Team2",
+    "CoolName" : "RS",
+    "Email" : "mrahulshakya@gmail.com",
+    "PhoneNumber" : 7350667642,
+    "Age" : 26
+  }
+]
+
+
+###
+POST http://localhost:7071/api/collection/PlayerTeam
+
+[
+  {
+    "TeamId" : 2,
+    "PlayerId" : 14,
+  },
+  {
+    "TeamId" : 2,
+    "PlayerId" : 15,
+  },
+   {
+    "TeamId" : 2,
+    "PlayerId" : 16,
+  },
+   {
+    "TeamId" : 2,
+    "PlayerId" : 17,
+  },
+   {
+    "TeamId" : 2,
+    "PlayerId" : 18,
+  },
+   {
+    "TeamId" : 2,
+    "PlayerId" : 19,
+  },
+   {
+    "TeamId" : 2,
+    "PlayerId" : 20,
+  },
+   {
+    "TeamId" : 2,
+    "PlayerId" : 21,
+  },
+   {
+    "TeamId" : 2,
+    "PlayerId" : 22,
+  },
+   {
+    "TeamId" : 2,
+    "PlayerId" : 23,
+  },
+   {
+    "TeamId" : 2,
+    "PlayerId" : 24,
+  },
+]

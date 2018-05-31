@@ -1,0 +1,39 @@
+GET http://localhost:7071/api/references/TotalScore
+
+
+###
+POST http://localhost:7071/api/Match
+  
+{
+    "TeamAid" : 2,
+    "TeamBid" : 1,
+    "IsActive" : true,
+    "IsComplete" : false,
+    "DtSchedule" : "2018-05-31T16:03:20.615Z"
+}
+
+###
+POST http://localhost:7071/api/TotalScore
+
+{
+   "isActive" : true,
+   "DtCreated" : "2018-05-31T16:03:20.615Z",
+   "DtUpdated" : "2018-05-31T16:03:20.615Z"
+}
+
+###
+POST http://localhost:7071/api/Innings
+
+{
+  "Name" : "Team  A batting innings",
+  "MatchId" :  1,
+  "BattingTeamId" : 1,
+  "BowlingTeamId" : 2,
+  "PlayeOnStrikeId"  : 3,
+  "PlayerOnNonStrikeId"  : 4,
+  "BallerId" : 28,
+  "isActive" : true,
+  "totalScoreId" : 1,
+  "DtCreated" : "2018-05-31T16:03:20.615Z",
+   "DtUpdated" : "2018-05-31T16:03:20.615Z"
+}
