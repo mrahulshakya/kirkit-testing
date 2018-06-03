@@ -1,0 +1,110 @@
+### Australia
+###
+GET http://localhost:7071/api/collection/Player
+
+###
+GET http://localhost:7071/api/collection/Team
+
+POST http://localhost:7071/api/Player
+
+ {
+    "FirstName" : "Patt",
+    "LastName" : "Cummins",
+    "Email" : "mrahulshakya@g24.com",
+    "PhoneNumber" : 7350667663,
+    "Age" : 26
+  }
+
+###
+POST http://localhost:7071/api/Player
+
+ {
+    "FirstName" : "Jhon",
+    "LastName" : "Hastings",
+    "Email" : "mrahulshakya@g26.com",
+    "PhoneNumber" : 7350667666,
+    "Age" : 26
+  }
+
+
+###
+POST http://localhost:7071/api/Player
+
+ {
+    "FirstName" : "Josh",
+    "LastName" : "Hazlewood",
+    "Email" : "mrahulshakya@g28.com",
+    "PhoneNumber" : 7350667676,
+    "Age" : 26
+  }
+
+  
+###
+POST http://localhost:7071/api/Player
+
+ {
+    "FirstName" : "Matthew",
+    "LastName" : "Wade",
+    "Email" : "mrahulshakya@g29.com",
+    "PhoneNumber" : 7350667677,
+    "Age" : 26
+  }
+
+###
+POST http://localhost:7071/api/Player
+
+{
+    "FirstName" : "Adam",
+    "LastName" : "Zampa",
+    "Email" : "mrahulshakya@g30.com",
+    "PhoneNumber" : 7350667679,
+    "Age" : 26
+}
+
+###
+POST http://localhost:7071/api/Player
+
+{
+    "FirstName" : "Cris",
+    "LastName" : "Lynn",
+    "Email" : "mrahulshakya@g31.com",
+    "PhoneNumber" : 7350667520,
+    "Age" : 26
+}
+
+###
+POST http://localhost:7071/api/Player
+
+{
+    "FirstName" : "Rahul",
+    "LastName" : "Shakya",
+    "Email" : "mrahulshakya@g3da1d.com",
+    "PhoneNumber" : 7360667500,
+    "Age" : 26
+}
+###
+POST    http://localhost:7071/api/Team
+
+{
+  "Name"  : "Australia",
+  "Location" : "Australia"
+}
+
+###
+POST    http://localhost:7071/api/Team
+
+{
+  "Name"  : "India",
+  "Location" : "India"
+}
+
+###
+GET    http://localhost:7071/api/PlayerTeam/2?key=TeamId
+
+###
+POST    http://localhost:7071/api/PlayerTeam
+
+{
+  "TeamId"  : 1,
+  "PlayerId" : 21
+}

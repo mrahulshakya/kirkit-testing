@@ -1,0 +1,35 @@
+
+GET http://localhost:7071/api/collection/Innings
+
+###
+GET http://localhost:7071/api/Innings/1?key=matchid
+
+###
+GET http://localhost:7071/api/collection/PerBallUpdate
+
+###
+POST http://localhost:7071/api/PerBallUpdate
+
+{
+  "RunScored"  : 1,
+  "RunType"  : 1,
+  "BallType"  : 1,
+  "WiketFallen"  : false,
+  "IsActive"  : true,
+  "InningsId"  : 2,
+  "DtCreated"  : "2018-05-23T18:25:43.511Z",
+   "DtUpdated"  : "2018-05-23T18:25:43.511Z",
+}
+
+
+###
+POST http://localhost:7071/api/Player
+
+{
+    "FirstName" : "Palyer1",
+    "LastName" : "Team2",
+    "CoolName" : "RS",
+    "Email" : "rshakya@gmail.cpm",
+    "PhoneNumber" : 7350667645,
+    "Age" : 26
+}

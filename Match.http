@@ -1,5 +1,9 @@
-GET http://localhost:7071/api/references/TotalScore
 
+
+GET http://localhost:7071/api/PLayerTeam/22?key=playerId
+
+###
+GET http://localhost:7071/api/collection/PLayerTeam
 
 ###
 POST http://localhost:7071/api/Match
@@ -7,7 +11,6 @@ POST http://localhost:7071/api/Match
 {
     "TeamAid" : 2,
     "TeamBid" : 1,
-    "IsActive" : true,
     "IsComplete" : false,
     "DtSchedule" : "2018-05-31T16:03:20.615Z"
 }
@@ -16,24 +19,26 @@ POST http://localhost:7071/api/Match
 POST http://localhost:7071/api/TotalScore
 
 {
-   "isActive" : true,
-   "DtCreated" : "2018-05-31T16:03:20.615Z",
-   "DtUpdated" : "2018-05-31T16:03:20.615Z"
+    "TotalRuns" : 0,
+    "InningsId" : 1,
+    "TotalOvers" : 0,
+    "TotalBalls" : 0,
+    "TotalWickets" : 0,
+    "ExtraRuns" : 0
 }
+
+###
+GET http://localhost:7071/api/TotalScore/1?key="InningsId"
 
 ###
 POST http://localhost:7071/api/Innings
 
 {
-  "Name" : "Team  A batting innings",
+  "Name" : "India batting innings",
   "MatchId" :  1,
-  "BattingTeamId" : 1,
-  "BowlingTeamId" : 2,
-  "PlayeOnStrikeId"  : 3,
-  "PlayerOnNonStrikeId"  : 4,
-  "BallerId" : 28,
-  "isActive" : true,
-  "totalScoreId" : 1,
-  "DtCreated" : "2018-05-31T16:03:20.615Z",
-   "DtUpdated" : "2018-05-31T16:03:20.615Z"
-}
+  "BattingTeamId" : 2,
+  "BowlingTeamId" : 1,
+  "PlayeOnStrikeId"  : 6,
+  "PlayerOnNonStrikeId"  :5,
+  "BallerId" : 21,
+ }
